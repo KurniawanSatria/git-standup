@@ -1,0 +1,28 @@
+{
+  "name": "git-standup",
+  "version": "1.0.0",
+  "description": "Summarize your recent git commits across local repos into a daily standup note.",
+  "type": "module",
+  "bin": {
+    "git-standup": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "git",
+    "standup",
+    "cli",
+    "productivity",
+    "daily-log"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ]
+}
